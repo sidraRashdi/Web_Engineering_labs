@@ -1,0 +1,83 @@
+h2 {
+  color: green;
+}
+h3,
+.group {
+  color: blue;
+  background-color: lightgreen;
+}
+/* em -> is relative to the font-size of its direct or nearest parent 
+rem -> is relative to the html (root) font-size */
+.example {
+  width: 300px;
+  height: 150px;
+
+  padding: 1em;
+
+  padding: 10px;
+  margin: 20px 30px 40px 10px;
+
+  border: 2px solid #e74c;
+  background-color: #3498db; /* Hexadecimal color */
+  color: white; /* Named color */
+  border: 2px solid rgb(255, 0, 0); /* RGB color */
+}
+.newdiv {
+  border: 2px solid #e74c;
+
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-color: #3498db;
+  /* border-radius: 50%; */
+  padding: 20px;
+}
+.newdiv2 {
+  border: 2px solid #e74c;
+
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-color: salmon;
+  /* border-radius: 50%; */
+  padding: 20px;
+}
+.newdiv3 {
+  border: 2px solid #e74c;
+
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-color: salmon;
+  /* border-radius: 50%; */
+  padding: 20px;
+}
+.newdiv4 {
+  border: 2px solid #e74c;
+
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-color: salmon;
+  /* border-radius: 50%; */
+  padding: 20px;
+}
+.outer {
+  width: 200px;
+  height: 100px;
+
+  background-color: azure;
+  border: 1px solid greenyellow;
+  position: relative;
+}
+.inner {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: azure;
+  border-radius: 25px;
+
+  border: 1px solid rgb(150, 169, 169);
+}
