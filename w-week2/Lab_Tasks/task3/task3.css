@@ -1,0 +1,53 @@
+.Relative {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: 33%;
+  margin-top: 10%;
+  background-color: rgb(20, 20, 19);
+}
+.absoluteLT {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgb(10, 147, 177);
+  top: 0;
+  left: 0;
+}
+.absoluteRT {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgb(10, 147, 177);
+  top: 0;
+  right: 0;
+}
+.absoluteRB {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgb(10, 147, 177);
+  bottom: 0;
+  right: 0;
+}
+.absoluteLB {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgb(10, 147, 177);
+  bottom: 0;
+  left: 0;
+}
+.absoluteCenter {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgb(10, 147, 177);
+  top: 130px;
+  left: 126px;
+}
