@@ -1,0 +1,68 @@
+button {
+  background-color: aquamarine;
+  border: none;
+  width: 200px;
+}
+button:hover {
+  border: none;
+  width: 200px;
+  cursor: pointer;
+  background-color: rgb(135, 224, 224);
+}
+.myLinks > a:first-child {
+  color: rgb(84, 149, 206);
+}
+/* a:active {
+  background-color: aliceblue;
+}
+a:focus {
+  background-color: aqua;
+} */
+.red {
+  position: relative;
+  background-color: red;
+
+  width: 400px;
+  height: 200px;
+  z-index: 1000;
+}
+.green {
+  position: absolute;
+  background-color: green;
+
+  width: 400px;
+  height: 200px;
+  left: -250px;
+  top: -100px;
+}
+p {
+  font-family: Sixtyfour;
+}
+.myIcon * {
+  width: 40px;
+  height: 40px;
+}
+.fixed_Area {
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 100px;
+  height: 100px;
+}
+.container {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: aqua;
+}
+.div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+  width: 100vh;
+  height: 400px;
+  background-color: antiquewhite;
+}
+.container:nth-child(13) {
+  background-color: blue;
+}
