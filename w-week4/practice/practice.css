@@ -1,0 +1,11 @@
+.mainDiv {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  column-gap: 10px;
+}
+.child {
+  height: 100px;
+  width: 100px;
+  background-color: yellowgreen;
+}

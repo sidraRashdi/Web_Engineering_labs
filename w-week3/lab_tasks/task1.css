@@ -29,6 +29,7 @@ body {
   height: 280px;
   background-color: #5db7b7;
   margin-top: 10px;
+  order: 2;
 }
 .article {
   width: 360px;
@@ -36,6 +37,7 @@ body {
 
   background-color: #fd7879;
   margin-top: 10px;
+  order: 1;
 }
 .article_images {
   column-gap: 10px;
