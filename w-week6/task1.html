@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task1</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>TO DO LIST</h1>
+      <input class="inputElement" type="text" placeholder="toDoList" />
+      <button onclick="Add()">ADD</button>
+    </div>
+  </body>
+  <script>
+    function Add() {
+      let main = document.querySelector(".main");
+      let input = document.querySelector(".inputElement");
+      let array = [];
+      array.push(input.value);
+      input.value = " ";
+      for (let i = 0; i < array.length; i++) {
+        let list = array[i];
+        const addAction = document.createElement("div");
+        addAction.textContent = `${array[i]}`;
+        main.appendChild(addAction);
+      }
+    }
+  </script>
+</html>
