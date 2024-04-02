@@ -12,10 +12,10 @@ let count = 0;
 
 next.addEventListener("click", () => {
   if (count <= 1) {
-    image = `<img src=${img[count]}/>`;
+    image = `${img[count]}`;
     console.log(img[count]);
 
-    imageDiv.innerHTML = image;
+    imageDiv.innerHTML = `<img src=image/>`;
     count++;
   } else {
     imageDiv.innerHTML = "noImage";
@@ -25,9 +25,9 @@ let count1 = img.length;
 prev.addEventListener("click", () => {
   if (count1 >= 1) {
     console.log(img[count]);
-    image = `<img src='${img[count]}'/>`;
+    image = `<img src='${img[count1]}'/>`;
     imageDiv.innerHTML = image;
-    count++;
+    count1--;
   } else {
     imageDiv.innerHTML = "noImage";
   }
