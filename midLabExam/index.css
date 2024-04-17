@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  width: 500px;
+  height: 300px;
+  margin-left: 40%;
+  align-items: center;
+}
+.imageDiv {
+  width: 200px;
+  height: 200px;
+}
