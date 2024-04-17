@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="grandparent" id="grandparent">
+      <div style="background-color: antiquewhite" class="parent" id=" parent-1">
+        <div class="child" id="child-1"></div>
+        <div class="child" id="child-2"></div>
+      </div>
+
+      <div
+        style="background-color: rgb(209, 191, 33)"
+        class="parent"
+        id=" parent-2"
+      >
+        <div class="child" id="child-3"></div>
+        <div class="child" id="child-4"></div>
+      </div>
+    </div>
+    <button onclick="addChild()">add child to grandparent</button>
+    <button onclick="addChild1()">add to parent-1</button>
+    <button onclick="addChild2()">add to parent-2</button>
+  </body>
+  <script>
+    function addChild() {
+      const parent = document.createElement("div");
+      const node = document.createTextNode("new parent");
+      parent.appendChild(node);
+      document.querySelector(".grandparent").appendChild(parent);
+    }
+    function addChild1() {
+      const parent = document.createElement("div");
+      const node = document.createTextNode("new parent oijn");
+      parent.appendChild(node);
+      const first = document.querySelector(".grandparent").firstElementChild;
+      first.appendChild(parent);
+    }
+    function addChild2() {
+      const parent = document.createElement("div");
+      const node = document.createTextNode("new parent oijn");
+      parent.appendChild(node);
+      const first = document.querySelector(".grandparent").lastElementChild;
+      first.appendChild(parent);
+    }
+  </script>
+</html>

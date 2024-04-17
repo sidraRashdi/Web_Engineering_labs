@@ -16,6 +16,7 @@
     function Add() {
       let main = document.querySelector(".main");
       let input = document.querySelector(".inputElement");
+
       let array = [];
       array.push(input.value);
       input.value = " ";
@@ -24,6 +25,12 @@
         const addAction = document.createElement("div");
         addAction.textContent = `${array[i]}`;
         main.appendChild(addAction);
+        var btn = document.createElement("button");
+        btn.innerText = "Delete";
+        addAction.appendChild(btn);
+        btn.addEventListener("click", function () {
+          main.removeChild(addAction);
+        });
       }
     }
   </script>
