@@ -1,0 +1,5 @@
+.dropDown {
+  display: flex;
+  gap: 20px;
+  margin: 20px 40px;
+}
